@@ -1,0 +1,10 @@
+#main_body
+{
+	width: 60%;
+	display: inline-block;
+	height: 100em;
+	margin: auto;
+	margin-top: 30px;
+	 
+	border: 1px solid red;
+}

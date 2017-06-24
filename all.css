@@ -1,0 +1,165 @@
+#header
+{
+	position:relative;
+	top:1%;
+	border: 1px solid red ;
+	height: 120px;
+	width: 100%;
+	margin: auto;
+	border: 2px solid white;
+	border-radius: 0px;
+	text-align: center;
+
+}
+
+#headerdiv
+{
+	position: absolute;
+	top: 0;
+	left:0%;
+	width:100%;
+	height: 120px;
+	background: #09956c;
+	//background: #30c6b6;
+	//background: #18a2a7;
+	//background: linear-gradient(#7bed0c,#59ac07);
+	//background: linear-gradient(to bottom,#00c1cf,#5472d2);
+	font-family:sans-serif;
+	text-align: center;
+	font-size:2.1em; 
+	color:white	;
+	margin: auto;
+	text-shadow: 2px 2px 5px violet;
+	box-shadow: 2px 2px 20px grey;
+
+}
+
+/* ---------------it is for navigation bar-------------------*/
+
+#navdiv
+{
+	position:relative;
+	display:block;
+	top: 10px;
+	margin-left: 8%;
+	margin-right:4%; 
+	margin-bottom: 1%;
+	width: 95%;
+	max-width: 95%;
+	height: 3.5em;
+
+	//border: 1px solid red;
+} 
+
+#navdiv ul
+{
+
+	display: block;
+	position: relative;
+	margin:auto;
+	list-style-type:none;
+}
+
+#navdiv ul li a
+{
+	display: block;
+	transition: all .7s;
+	float: left;
+	margin: auto;	
+	color: black;
+	//color:#3300FF;	
+	padding: 0 8px 0 8px;
+	font-size: .80em;
+	opacity: .9;
+	border-bottom: 3px groove #660033;
+	text-decoration: none;
+}
+
+#navdiv ul li a:hover
+{
+	display: block;
+	transition: all .7s;
+	float: left;
+	margin: auto;
+	color:white ;
+	padding: 0 8px 0 8px;
+	font-size: .80em;
+	//background:black;
+	background: #04667f;
+	opacity: .9;
+	//border-bottom: 3px groove #00FFCC;
+	border-bottom: 3px groove yellow;
+	cursor: pointer;
+}
+
+
+#cur_page
+{
+	background: #09956c;
+	text-decoration: none;
+}
+
+/*below code is for side nav*/
+#side_nav
+{
+
+	float: left;
+	display: inline-block;
+	width: 160px;
+	margin-top: 40px;
+	clear: left;
+	//border: 1px solid red;
+	
+}
+
+#side_nav a
+{
+	text-decoration: none;
+}
+
+
+.s_button
+{
+	transition:all 1s;
+	padding: 8px;
+	width: 140px;
+	margin-bottom: 5px;
+	display: block;
+	font-size:1em;
+	background: #09956c;
+	//background: #18a2a7;
+	//background: #04667f;
+	color: white;
+	text-align:left;
+	border-radius:0 10px 10px 0;
+
+	outline: none;
+	border: none;
+}
+
+.s_button:hover
+{
+	transition: all .5s;
+	width: 160px;
+	text-align: center;
+	box-shadow: 0 0 15px black;
+	outline: none;
+	border: none;
+}
+
+/*code for side nav ends here*/
+
+#topbutton,#topbutton a
+{
+position: fixed;
+top: 93%;
+left: 95%;
+padding: 8px;
+background: #09956c;
+color: white;
+font-family: calibri;
+text-decoration: none;
+font-size: 17px;
+box-shadow: 2px 5px 10px grey;
+
+}

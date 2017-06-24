@@ -1,0 +1,50 @@
+#yash_img
+{
+	//top: 0;
+	margin-left:75%;
+	max-width: 220px;
+	max-height: 248px;
+	//box-shadow: 0px 2px 30px grey;
+	//border: 1px solid red;
+
+}
+#bodydiv
+{
+	width: 70%;
+	max-width: 70%;
+	float: left;
+	margin-left: 1%;
+	padding:0px 10px 0px 10px;
+    box-shadow: 0px 0px 30px grey ;
+    display: inline;	
+	//border: 1px solid red;
+}
+#body
+{
+	position: relative;
+	top: 0;
+    margin: auto;
+	float: left;
+	margin-left:0; 
+	padding: 5px;
+    max-width: 100%;
+	font-size: 1.2em;
+	font-family: calibri;	
+	//border: 1px solid red;
+}
+
+
+#topbutton,#topbutton a
+{
+	position: fixed;
+	top: 93%;
+	left: 95%;
+	padding: 8px;
+	background: #09956c;
+	color: white;
+	font-family: calibri;
+	text-decoration: none;
+	font-size: 17px;
+	box-shadow: 2px 5px 10px grey;
+
+}
